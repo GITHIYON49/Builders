@@ -1,0 +1,28 @@
+@import '/src/css/color.css';
+
+
+.apartment-container{
+    background-color: var(--primary--);
+    padding: 30px 0px;
+}
+
+.apartment-container_sub-one{
+    text-align: center;
+    color: var(--secondnary--);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.apartment-container_sub-one h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.apartment-container_sub-one p{
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 70%;
+}
